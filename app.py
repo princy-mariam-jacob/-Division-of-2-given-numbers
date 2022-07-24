@@ -1,12 +1,12 @@
 import streamlit as st
 
-string = "Multiplier"
+string = "Divider"
 st.set_page_config(page_title=string)
 
 st.write("""
-# Two Numbler Multiplication App
+# Two Numbler Divison App
 
-This app multiplies two number
+This app divides two number
 """)
 
 
@@ -21,4 +21,4 @@ def user_input_features():
 n1, n2 = user_input_features()
 
 if st.button('Calculate'):
-    st.write(n1*n2)
+    st.write(n1/n2)
